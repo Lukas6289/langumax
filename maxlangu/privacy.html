@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maxlangu – Privacy Policy</title>
+<style>
+  :root{--bg:#fdfcf8;--ink:#1c1b19;--muted:#6b6862;--line:#e6e3da;--accent:#e6b800;--card:#ffffff}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:var(--bg);line-height:1.65}
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px 80px}
+  header{padding:40px 0 8px;border-bottom:3px solid var(--ink);margin-bottom:28px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .logo{width:44px;height:44px;border-radius:12px;background:var(--accent);
+    border:3px solid var(--ink);display:flex;align-items:center;justify-content:center;
+    font-weight:900;font-size:20px}
+  h1{font-size:26px;margin:0;font-weight:800;letter-spacing:-.01em}
+  .sub{color:var(--muted);margin:2px 0 0;font-size:14px}
+  nav{margin:14px 0 0;display:flex;gap:16px;flex-wrap:wrap;font-size:14px}
+  nav a{color:var(--muted);text-decoration:none;font-weight:600}
+  nav a:hover{color:var(--ink)}
+  h2{font-size:18px;margin:30px 0 8px;font-weight:750}
+  p{margin:8px 0}
+  a.link{color:#8a6d00;font-weight:600}
+  ul{margin:8px 0;padding-left:20px}
+  li{margin:4px 0}
+  .en{color:var(--muted);font-size:13.5px;font-style:italic}
+  .date{color:var(--muted);font-size:13.5px}
+  .note{background:#fff7d6;border:1px solid #ecd98a;border-radius:10px;padding:12px 14px;
+    font-size:13.5px;color:#6b5a00;margin:18px 0}
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">M</div>
+      <div>
+        <h1>Privacy Policy</h1>
+        <p class="sub">Maxlangu</p>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="index.html#imprint">Imprint</a>
+      <a href="../privacy.html">Langumax (Deutsch)</a>
+    </nav>
+  </header>
+
+  <p class="date">Last updated: <span id="d"></span></p>
+
+  <h2>1. Controller</h2>
+  <p>
+    Lukas Beutler<br>
+    Friedrich-Ebert-Strasse 83, 04109 Leipzig, Germany<br>
+    E-mail: <a class="link" href="mailto:lukasbeutler@gmx.de">lukasbeutler@gmx.de</a>
+  </p>
+
+  <h2>2. Principle</h2>
+  <p>Maxlangu is a language-learning app that deliberately works
+     <strong>without a user account</strong> and
+     <strong>without collecting personal data</strong>. You can use the app without
+     registering or providing any personal details.</p>
+
+  <h2>3. Data that stays on your device</h2>
+  <p>Your progress (words learned, points, level, streak, settings) is stored
+     <strong>only on your device</strong>. It is not transmitted to us or to third
+     parties. Deleting the app removes it.</p>
+
+  <h2>4. Purchases</h2>
+  <p>The full version is bought through the Apple App Store. Payment and management of
+     the purchase are handled entirely by Apple. We receive <strong>no</strong> payment
+     details (such as card numbers) and store none. Apple's privacy policy applies in
+     addition.</p>
+
+  <h2>5. Notifications</h2>
+  <p>If you turn on reminders, they are created as local notifications directly on your
+     device. No data is sent to us.</p>
+
+  <h2>6. Text-to-speech</h2>
+  <p>To read words aloud, the app uses your device's own speech function (Apple). No
+     personal data is processed by us in doing so.</p>
+
+  <h2>7. No analytics, no advertising, no tracking</h2>
+  <p>Maxlangu contains <strong>no advertising</strong>, <strong>no analytics or tracking
+     tools</strong> and shares no data with third parties for advertising purposes.</p>
+
+  <h2>8. Children</h2>
+  <p>The app is aimed at a general audience and knowingly collects no data from
+     children.</p>
+
+  <h2>9. Your rights</h2>
+  <p>As we collect no personal data, we hold none. If you have questions about privacy
+     you can reach us any time at
+     <a class="link" href="mailto:lukasbeutler@gmx.de">lukasbeutler@gmx.de</a>.</p>
+
+  <h2>10. Changes</h2>
+  <p>We may adjust this policy when the app changes. The current version is always on
+     this page.</p>
+
+  <footer>
+    © <span id="y"></span> Maxlangu · <a class="link" href="index.html">Support</a> ·
+    <a class="link" href="index.html#imprint">Imprint</a>
+  </footer>
+</div>
+<script>
+  var now=new Date();
+  document.getElementById("y").textContent=now.getFullYear();
+  document.getElementById("d").textContent=now.toLocaleDateString("en-GB",{year:"numeric",month:"long",day:"numeric"});
+</script>
+</body>
+</html>
